@@ -80,4 +80,11 @@ dependencies {
 
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle")
+
+    //ViewBinding
+    implementation "com.github.kirich1409:viewbindingpropertydelegate:1.5.0-beta01"
+
+    //ViewModel
+    implementation "android.arch.lifecycle:extensions:1.1.0"
+    implementation "android.arch.lifecycle:viewmodel:1.1.0"
 }
